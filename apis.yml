@@ -3,9 +3,9 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/chief-acquisition-officers-council/refs/heads/main/apis.yml
 name: Chief Acquisition Officers Council
 tags:
+  - Acquisition
   - Federal Government
   - Procurement
-  - Acquisition
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
