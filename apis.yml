@@ -1,6 +1,6 @@
 aid: chief-acquisition-officers-council
 name: Chief Acquisition Officers Council
-x-type: government
+kind: government
 description: >-
   The Chief Acquisition Officers Council (CAOC) is a senior interagency
   forum established pursuant to Section 16 of the Office of Federal
