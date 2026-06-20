@@ -18,7 +18,7 @@ description: >-
 type: Index
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: >-
   https://raw.githubusercontent.com/api-evangelist/chief-acquisition-officers-council/refs/heads/main/apis.yml
 tags:
@@ -44,7 +44,7 @@ apis:
       through Acquisition.gov. The Council does not expose a dedicated
       developer API; resources are distributed as web pages and
       downloadable documents under the broader Acquisition.gov platform.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.acquisition.gov/cao-home
     tags:
       - Federal Government
