@@ -57,6 +57,8 @@ apis:
       - type: PolicyNetwork
         url: https://www.acquisition.gov/policy-network
 common:
+  - type: DomainSecurity
+    url: security/chief-acquisition-officers-council-domain-security.yml
   - type: Website
     url: https://www.acquisition.gov/caoc
   - type: Home
@@ -112,6 +114,8 @@ common:
       - name: Office of Federal Procurement Policy Act (41 USC 1311)
       - name: OMB Circulars (A-130, A-131)
       - name: Federal Information Security Management Act (FISMA)
+  - url: https://www.acquisition.gov/rss.xml
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
