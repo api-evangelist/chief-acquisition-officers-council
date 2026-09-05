@@ -1,0 +1,51 @@
+generated: '2026-09-05'
+method: probed
+source: >-
+  Live unauthenticated GET probes of the RFC 8615 well-known path list against every host
+  this record knows. The Chief Acquisition Officers Council operates no host of its own; it
+  publishes through Acquisition.GOV, the GSA-operated federal acquisition platform, so
+  acquisition.gov and www.acquisition.gov are the only hosts in scope. There is no API
+  baseURL and no OpenAPI servers[] block on this record, so no additional hosts exist to probe.
+specification: API Evangelist Well-Known Index
+provider: Chief Acquisition Officers Council
+providerId: chief-acquisition-officers-council
+checked: '2026-09-05'
+note: >-
+  Every probed path returned 404. Acquisition.GOV answers a Drupal soft-error page
+  ("OOPS! Didn't find what you are looking for?") with an HTTP 404 status for unknown paths,
+  so the large HTML bodies recorded below are the site's own not-found page, not documents.
+  No WellKnown or SecurityTxt pointer is emitted in apis.yml: this file records a measured
+  absence, not a served surface.
+hosts:
+  - host: www.acquisition.gov
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 404
+        file: null
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+        file: null
+      - path: /.well-known/api-catalog
+        status: 404
+        file: null
+      - path: /.well-known/ai-plugin.json
+        status: 404
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 404
+        file: null
+      - path: /.well-known/agent.json
+        status: 404
+        file: null
+  - host: acquisition.gov
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+        file: null
+        note: 301 redirect to www.acquisition.gov, which answers 404.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

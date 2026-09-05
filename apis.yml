@@ -67,7 +67,7 @@ tags_raw:
   - Procurement
   - Public Sector
 created: '2024-12-03'
-modified: '2026-04-23'
+modified: '2026-09-05'
 specificationVersion: '0.23'
 apis:
   - aid: chief-acquisition-officers-council:caoc-resources
@@ -96,8 +96,10 @@ apis:
 common:
   - type: DomainSecurity
     url: security/chief-acquisition-officers-council-domain-security.yml
+  - type: LLMsTxt
+    url: llms/chief-acquisition-officers-council-llms.txt
   - type: Website
-    url: https://www.acquisition.gov/caoc
+    url: https://www.acquisition.gov
   - type: Home
     url: https://www.acquisition.gov/cao-home
   - type: Charter
@@ -108,13 +110,13 @@ common:
     url: https://www.acquisition.gov
   - type: ParentOrganization
     name: Office of Federal Procurement Policy (OMB)
-    url: https://www.whitehouse.gov/omb/management/office-federal-procurement-policy/
+    url: https://www.whitehouse.gov/omb/
   - type: USAGov
     url: https://www.usa.gov/agencies/chief-acquisition-officers-council
   - type: GSAOfficeOfAcquisitionPolicy
     url: https://www.gsa.gov/policy-regulations/policy/acquisition-policy/office-of-acquisition-policy
   - type: PrivacyPolicy
-    url: https://www.acquisition.gov/privacy
+    url: https://www.acquisition.gov/Privacy_Security
   - name: WorkingGroups
     type: WorkingGroups
     data:
@@ -156,3 +158,26 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-enrichment:
+  date: '2026-09-05'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    The Council is a statutory interagency forum, not a software publisher — it ships no
+    product, operates no host of its own, and publishes through GSA's Acquisition.GOV, where
+    its own CAOC pages now answer HTTP 403 to anonymous fetches and are absent from the site
+    sitemap while every contract-discovery path on the host returns 404.
+  evidence:
+    - url: https://www.acquisition.gov/cao-home
+      status: 403
+    - url: https://www.acquisition.gov/openapi.json
+      status: 404
+    - url: https://www.acquisition.gov/.well-known/api-catalog
+      status: 404
+    - url: https://www.acquisition.gov/developers
+      status: 404
+  checked: '2026-09-05'

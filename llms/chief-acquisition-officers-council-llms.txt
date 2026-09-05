@@ -1,0 +1,63 @@
+# Chief Acquisition Officers Council (CAOC)
+
+> The Chief Acquisition Officers Council is a senior interagency forum of the U.S. federal
+> government, established under Section 16 of the Office of Federal Procurement Policy Act
+> (41 U.S.C. 1311). It brings together agency Chief Acquisition Officers, the Under Secretary
+> of Defense for Acquisition and Sustainment, and Senior Procurement Executives to monitor and
+> improve the federal acquisition system. The Council publishes its charter, membership,
+> working-group output and acquisition guidance through Acquisition.GOV; it operates no
+> developer program, no API, and no host of its own.
+
+Generated: 2026-09-05
+Method: generated (from apis.yml and the artifacts in this repository; every URL below was
+fetched on 2026-09-05 and returned HTTP 200 unless annotated)
+Source: https://raw.githubusercontent.com/api-evangelist/chief-acquisition-officers-council/refs/heads/main/apis.yml
+Publisher of this file: API Evangelist — an independent third-party profile, not the Council.
+
+## API surface
+
+There is none. The Council publishes no OpenAPI, AsyncAPI, GraphQL SDL, gRPC/Protobuf, WSDL,
+MCP server, A2A agent card, SDK, or developer portal. Contract discovery was run on
+2026-09-05 against acquisition.gov and www.acquisition.gov — the only hosts on this record —
+covering /openapi.json, /openapi.yaml, /swagger.json, /v1/openapi.json, /api-docs, /graphql,
+/api, /developers, /data and the /.well-known/ path list. Every one returned HTTP 404.
+Agents should treat this organization as a documentary source, not a callable service.
+
+## Council resources
+
+- [Acquisition.GOV](https://www.acquisition.gov): the federal acquisition platform (operated by
+  GSA) through which the Council publishes.
+- [CAOC home](https://www.acquisition.gov/cao-home): the Council's home page. Returned HTTP 403
+  to anonymous fetches on 2026-09-05 and is absent from the site sitemap.
+- [CAOC charter](https://www.acquisition.gov/caoc-charter): the Council's charter, effective
+  June 1, 2004. Returned HTTP 403 to anonymous fetches on 2026-09-05.
+- [Policy Network](https://www.acquisition.gov/policy-network): the interagency acquisition
+  policy network the Council sits within.
+- [FAR Council](https://www.acquisition.gov/far-council): the Federal Acquisition Regulatory
+  Council, the Council's rulemaking counterpart.
+- [FAR Council members](https://www.acquisition.gov/far-council-members)
+- [Federal Acquisition Regulation](https://www.acquisition.gov/browse/index/far): the full FAR text.
+
+## Related organizations
+
+- [Office of Management and Budget](https://www.whitehouse.gov/omb/): OMB, whose Office of
+  Federal Procurement Policy (OFPP) the Council supports.
+- [GSA Office of Acquisition Policy](https://www.gsa.gov/policy-regulations/policy/acquisition-policy/office-of-acquisition-policy)
+- [CAOC on USAGov](https://www.usa.gov/agencies/chief-acquisition-officers-council)
+
+## News
+
+- [Acquisition.GOV news feed (RSS)](https://www.acquisition.gov/rss.xml): the site-wide feed
+  carrying FAR Overhaul notices, Federal Acquisition Circulars and Acquisition.GOV changes.
+
+## Standards this body works under
+
+- Federal Acquisition Regulation (FAR)
+- Office of Federal Procurement Policy Act (41 U.S.C. 1311)
+- OMB Circulars A-130 and A-131
+- Federal Information Security Modernization Act (FISMA)
+
+## Optional
+
+- [This profile's apis.yml](https://raw.githubusercontent.com/api-evangelist/chief-acquisition-officers-council/refs/heads/main/apis.yml)
+- [Well-known probe record](https://raw.githubusercontent.com/api-evangelist/chief-acquisition-officers-council/refs/heads/main/well-known/chief-acquisition-officers-council-well-known.yml)
