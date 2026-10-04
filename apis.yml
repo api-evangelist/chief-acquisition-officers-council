@@ -48,7 +48,7 @@ tags:
   - Acquisition
   - CAOC
   - FAR
-  - Federal-Government
+  - Federal Government
   - GSA
   - Interagency Council
   - OFPP
@@ -66,6 +66,7 @@ tags_raw:
   - OMB
   - Procurement
   - Public Sector
+  - Federal-Government
 created: '2024-12-03'
 modified: '2026-09-05'
 specificationVersion: '0.23'
@@ -81,11 +82,12 @@ apis:
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.acquisition.gov/cao-home
     tags:
-      - Federal-Government
+      - Federal Government
       - Procurement
     tags_raw:
       - Federal Government
       - Procurement
+      - Federal-Government
     properties:
       - type: Documentation
         url: https://www.acquisition.gov/cao-home
