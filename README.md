@@ -1,4 +1,4 @@
-# Chief Acquisition Officers Council (chief-acquisition-officers-council)
+# Chief Acquisition Officers Council
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,98 +64,103 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The Chief Acquisition Officers Council (CAOC) is a senior interagency forum established pursuant to Section 16 of the Office of Federal Procurement Policy Act (41 USC 1311). The Council brings together the Chief Acquisition Officers (CAOs), the Under Secretary of Defense for Acquisition and Sustainment, and the Senior Procurement Executives of Executive Branch agencies to monitor and improve the federal acquisition system, promote effective business practices, deliver best-value products and services, and further integrity, fairness, competition, and openness in federal procurement.
+The Chief Acquisition Officers Council (CAOC) is a senior interagency forum established pursuant to Section 16 of the Office of Federal Procurement Policy Act (41 USC 1311). The Council brings together the Chief Acquisition Officers (CAOs), the Under Secretary of Defense for Acquisition and Sustainment, and the Senior Procurement Executives of Executive Branch agencies to monitor and improve the federal acquisition system, promote effective business practices, deliver best-value products and services, and further integrity, fairness, competition, and openness in federal procurement. The CAOC publishes resources, charters, working group output, and guidance through Acquisition.gov, and operates alongside the Federal Acquisition Regulatory Council and the Office of Management and Budget's Office of Federal Procurement Policy (OFPP).
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/chief-acquisition-officers-council/refs/heads/main/apis.yml)
+**Areas:** Acquisition · CAOC · FAR · Federal Government · GSA · Interagency Council · OFPP · OMB · Procurement · Public Sector
 
-## Scope
+## Chief Acquisition Officers Council on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Chief Acquisition Officers Council is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/chief-acquisition-officers-council/](https://apis.io/providers/chief-acquisition-officers-council/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- Acquisition
-- CAOC
-- FAR
-- Federal Government
-- GSA
-- Interagency Council
-- OFPP
-- OMB
-- Procurement
-- Public Sector
+- [Chief Acquisition Officers Council Resources](https://apis.io/apis/chief-acquisition-officers-council/caoc-resources/) — The CAOC publishes its charter, membership roster, meeting summaries, working group output, and federal acquisition guidance through Acquisition.gov. The…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2024-12-03
-- **Modified:** 2026-04-23
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Chief Acquisition Officers Council Resources
+Authentication, trust centre, and vulnerability disclosure.
 
-The CAOC publishes its charter, membership roster, meeting summaries, working group output, and federal acquisition guidance through Acquisition.gov. The Council does not expose a dedicated developer API; resources are distributed as web pages and downloadable documents.
+- [Chief Acquisition Officers Council Domain Security](https://apis.io/security/chief-acquisition-officers-council/chief-acquisition-officers-council-domain-security/)
 
-**Human URL:** [https://www.acquisition.gov/cao-home](https://www.acquisition.gov/cao-home)
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://www.acquisition.gov/cao-home)
-- [Charter](https://www.acquisition.gov/caoc-charter)
-- [Policy Network](https://www.acquisition.gov/policy-network)
+- [Chief Acquisition Officers Council Plans Pricing](https://apis.io/plans/chief-acquisition-officers-council/chief-acquisition-officers-council-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
 
-- [CAOC Website](https://www.acquisition.gov/caoc)
-- [CAO Home](https://www.acquisition.gov/cao-home)
-- [Charter](https://www.acquisition.gov/caoc-charter)
-- [Policy Network](https://www.acquisition.gov/policy-network)
-- [Acquisition.gov](https://www.acquisition.gov)
-- [Office of Federal Procurement Policy (OMB)](https://www.whitehouse.gov/omb/management/office-federal-procurement-policy/)
-- [USA.gov listing](https://www.usa.gov/agencies/chief-acquisition-officers-council)
-- [GSA Office of Acquisition Policy](https://www.gsa.gov/policy-regulations/policy/acquisition-policy/office-of-acquisition-policy)
-- [Privacy Policy](https://www.acquisition.gov/privacy)
+Published request limits.
 
-## Working Groups
+- [Chief Acquisition Officers Council Rate Limits](https://apis.io/rate-limits/chief-acquisition-officers-council/chief-acquisition-officers-council-rate-limits/)
 
-- Acquisition Workforce
-- Category Management
-- Innovation in Acquisition
-- Performance and Outcomes
-- Cybersecurity in Federal Procurement
-- Sustainable Acquisition
-- Small Business and Socioeconomic Programs
+#### FinOps (1)
 
-## Features
+What the API costs to run, by operation.
 
-- Senior-Level Interagency Forum
-- Federal Acquisition Policy Coordination
-- Working Groups and Action Teams
-- Acquisition Workforce Development
-- Best Practice Guidance
-- Industry Engagement
-- Performance Reporting
+- [Chief Acquisition Officers Council Finops](https://apis.io/finops/chief-acquisition-officers-council/chief-acquisition-officers-council-finops/)
 
-## Use Cases
+## Where to find this API
 
-- Federal Acquisition Workforce Improvement
-- Category Management Adoption
-- Innovative Buying Practices
-- Federal Procurement Reporting
-- Cross-Agency Best Practice Sharing
-- Industry-Government Collaboration
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Standards
+- [Website](https://www.acquisition.gov)
+- [Blog](https://www.acquisition.gov/rss.xml)
+- [Privacy policy](https://www.acquisition.gov/Privacy_Security)
 
-- Federal Acquisition Regulation (FAR)
-- Office of Federal Procurement Policy Act (41 USC 1311)
-- OMB Circulars (A-130, A-131)
-- Federal Information Security Management Act (FISMA)
+## API Evangelist rating
 
-## Maintainers
+**Kin Score 10.4** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**FN:** Kin Lane
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 10.5 |
 
-**Email:** kin@apievangelist.com
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.8** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/chief-acquisition-officers-council/](https://apis.io/providers/chief-acquisition-officers-council/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Chief Acquisition Officers Council: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/chief-acquisition-officers-council/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
